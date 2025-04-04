@@ -1,0 +1,22 @@
+@startuml
+
+actor RestaurantManager
+
+rectangle CloudTablesManagerSubsystem {
+
+    RestaurantManager --> (Set Up Restaurant Tenant Data)
+    RestaurantManager --> (Update Restaurant Information)
+
+    (Set Up Restaurant Tenant Data) .> (Enter Basic Information) : includes
+    (Set Up Restaurant Tenant Data) .> (Enter Menu Details) : includes
+    (Set Up Restaurant Tenant Data) .> (Enter Space Configuration) : includes
+    (Set Up Restaurant Tenant Data) .> (Enter Staff Information) : includes
+
+    (Update Restaurant Information) .> (Update Basic Information) : includes
+    (Update Restaurant Information) .> (Update Daily Menu) : includes
+    (Update Restaurant Information) .> (Update Space Availability) : includes
+    (Update Restaurant Information) .> (Update Staff Information) : includes
+
+}
+
+@enduml
