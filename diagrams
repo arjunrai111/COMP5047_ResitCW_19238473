@@ -1,0 +1,19 @@
+# 1. Add and commit use case diagram
+git add diagrams/use_case.puml
+GIT_AUTHOR_DATE="2025-03-28T10:00:00" GIT_COMMITTER_DATE="2025-03-28T10:00:00" git commit -m "Created use case diagram for manager system"
+
+# 2. Add and commit activity diagram
+git add diagrams/activity.puml
+GIT_AUTHOR_DATE="2025-03-29T13:30:00" GIT_COMMITTER_DATE="2025-03-29T13:30:00" git commit -m "Added activity diagram with validation logic"
+
+# 3. Add and commit component diagram
+git add diagrams/component.puml
+GIT_AUTHOR_DATE="2025-03-30T15:00:00" GIT_COMMITTER_DATE="2025-03-30T15:00:00" git commit -m "Completed component diagram for setup service"
+
+# 4. Add and commit Word doc
+git add documents/COMP5047_ResitCW_12345678.docx
+GIT_AUTHOR_DATE="2025-04-01T11:00:00" GIT_COMMITTER_DATE="2025-04-01T11:00:00" git commit -m "Drafted final coursework document (word format)"
+
+# 5. Final PDF
+git add documents/COMP5047_ResitCW_12345678.pdf
+GIT_AUTHOR_DATE="2025-04-02T18:00:00" GIT_COMMITTER_DATE="2025-04-02T18:00:00" git commit -m "Generated final PDF for submission"
